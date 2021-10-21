@@ -6,8 +6,8 @@
 
 namespace cube_summation {
 
-const char * const INPUT_FILE = "cube-summation/input2.txt";
-const char * const OUTPUT_FILE = "cube-summation/result.txt";
+const char * const INPUT_FILE  = "cube-summation/tests/input2.txt";
+const char * const OUTPUT_FILE = "cube-summation/tests/result.txt";
 
 std::vector<long> cubeSum(int, std::vector<std::string>);
 

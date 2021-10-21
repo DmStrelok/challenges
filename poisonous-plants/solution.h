@@ -5,8 +5,8 @@
 
 namespace poisonous_plants {
 
-const char * const INPUT_FILE = "poisonous-plants/input.txt";
-const char * const OUTPUT_FILE = "poisonous-plants/result.txt";
+const char * const INPUT_FILE  = "poisonous-plants/tests/input.txt";
+const char * const OUTPUT_FILE = "poisonous-plants/tests/result.txt";
 
 int poisonousPlants(std::vector<int>);
 

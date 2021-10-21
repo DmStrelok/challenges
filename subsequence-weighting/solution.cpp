@@ -1,5 +1,4 @@
 #include <map>
-#include <functional>
 
 #include "solution.h"
 
@@ -11,7 +10,7 @@ std::uint64_t solve(std::vector<int> a, std::vector<int> w)
     std::map<int, std::pair<std::uint64_t, multimap::iterator>> key_max;
     multimap max_key;
 
-    for (int i{0}; i < a.size(); i++)
+    for (std::uint32_t i{0}; i < a.size(); i++)
     {
         std::uint64_t cur_w = w[i];
         for (auto &max : max_key)

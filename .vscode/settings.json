@@ -78,6 +78,10 @@
         "map": "cpp",
         "__tree": "cpp",
         "memory_resource": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "*.tcc": "cpp",
+        "clocale": "cpp",
+        "numeric": "cpp",
+        "random": "cpp"
     }
 }

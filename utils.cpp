@@ -1,3 +1,5 @@
+#include <algorithm>
+
 #include "utils.h"
 
 std::string Utils::ltrim(const std::string &str)

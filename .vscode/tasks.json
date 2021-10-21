@@ -6,9 +6,8 @@
         {
             "label": "c++ make",
             "type": "shell",
-            "command": "make",
+            "command": "./build.sh",
             "args": [
-                "all"
             ],
             "group": {
                 "kind": "build",

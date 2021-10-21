@@ -5,8 +5,8 @@
 
 namespace subsequence_weighting {
 
-const char * const INPUT_FILE = "subsequence-weighting/input.txt";
-const char * const OUTPUT_FILE = "subsequence-weighting/result.txt";
+const char * const INPUT_FILE  = "subsequence-weighting/tests/input.txt";
+const char * const OUTPUT_FILE = "subsequence-weighting/tests/result.txt";
 
 std::uint64_t solve(std::vector<int>, std::vector<int>);
 

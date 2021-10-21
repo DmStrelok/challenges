@@ -2,6 +2,7 @@
 #define __POISONOUS_PLANTS_SOLUTION_H__
 
 #include <vector>
+
 namespace poisonous_plants {
 
 const char * const INPUT_FILE = "poisonous-plants/input.txt";

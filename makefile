@@ -5,7 +5,9 @@ CFLAGS = -c -g -Wall -Wuninitialized
 LDFLAGS =
 OFLAGS =
 LIBS =
-SOURCES = main.cpp poisonous-plants/solution.cpp
+SOURCES = main.cpp utils.cpp \
+			poisonous-plants/solution.cpp poisonous-plants/test.cpp \
+			cube-summation/solution.cpp cube-summation/test.cpp cube-summation/solution2.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = main
 TARGET = EXECUTABLE

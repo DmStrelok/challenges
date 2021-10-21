@@ -2,7 +2,9 @@
 
 #include "solution.h"
 
-int poisonous_plants::poisonousPlants(std::vector<int> p)
+namespace poisonous_plants {
+
+int poisonousPlants(std::vector<int> p)
 {
     std::stack<std::pair<int, int>> s;
     std::pair<int, int> cur{p[p.size() - 1], 0};
@@ -33,3 +35,5 @@ int poisonous_plants::poisonousPlants(std::vector<int> p)
     }
     return result;
 }
+
+} // namespace poisonous_plants

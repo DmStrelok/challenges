@@ -3,7 +3,6 @@
 
 #include "../utils.h"
 #include "test.h"
-#include "solution.h"
 
 namespace poisonous_plants {
 

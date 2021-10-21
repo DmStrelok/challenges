@@ -3,11 +3,10 @@
 
 #include "../utils.h"
 #include "test.h"
-#include "solution.h"
 
 namespace cube_summation {
 
-void run_test(std::vector<long> (*fun) (int, std::vector<std::string>))
+void run_test(std::vector<long> (*cubeSum) (int, std::vector<std::string>))
 {
     std::ifstream fin(INPUT_FILE);
     std::ofstream fout(OUTPUT_FILE);
@@ -32,7 +31,7 @@ void run_test(std::vector<long> (*fun) (int, std::vector<std::string>))
             ops[i] = ops_item;
         }
 
-        std::vector<long> res = fun(matSize, ops);
+        std::vector<long> res = cubeSum(matSize, ops);
 
         for (size_t i = 0; i < res.size(); i++)
         {

@@ -3,6 +3,8 @@
 
 #include <vector>
 
+#include "solution.h"
+
 namespace poisonous_plants {
 
 void run_test();

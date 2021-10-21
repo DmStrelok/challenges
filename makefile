@@ -7,7 +7,8 @@ OFLAGS =
 LIBS =
 SOURCES = main.cpp utils.cpp \
 			poisonous-plants/solution.cpp poisonous-plants/test.cpp \
-			cube-summation/solution.cpp cube-summation/test.cpp cube-summation/solution2.cpp
+			cube-summation/test.cpp cube-summation/solution.cpp cube-summation/solution2.cpp \
+			subsequence-weighting/test.cpp subsequence-weighting/solution.cpp subsequence-weighting/solution2.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = main
 TARGET = EXECUTABLE
